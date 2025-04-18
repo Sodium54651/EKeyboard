@@ -8,3 +8,13 @@ C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка 
 C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\клавиши клавиатуры\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.csproj.CoreCompileInputs.cache
 C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\клавиши клавиатуры\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.exe
 C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\клавиши клавиатуры\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.pdb
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\bin\Debug\клавиши клавиатуры.exe.config
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\bin\Debug\клавиши клавиатуры.exe
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\bin\Debug\клавиши клавиатуры.pdb
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.csproj.AssemblyReference.cache
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши_клавиатуры.Form1.resources
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши_клавиатуры.Properties.Resources.resources
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.csproj.GenerateResource.cache
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.csproj.CoreCompileInputs.cache
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.exe
+C:\Users\vzdis\OneDrive\Рабочий стол\хумус\разарботка коддиков\EKeyboard\клавиши клавиатуры\obj\Debug\клавиши клавиатуры.pdb
