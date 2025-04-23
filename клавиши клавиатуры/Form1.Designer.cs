@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.RightCtrl = new System.Windows.Forms.Button();
@@ -119,6 +120,7 @@
             this.f1 = new System.Windows.Forms.Button();
             this.Esc = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
@@ -146,6 +148,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel1.Controls.Add(this.richTextBox1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -153,6 +156,17 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1024, 52);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.richTextBox1.Size = new System.Drawing.Size(710, 49);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
             // 
             // panel2
             // 
@@ -251,6 +265,7 @@
             this.Space.Name = "Space";
             this.Space.Size = new System.Drawing.Size(350, 50);
             this.Space.TabIndex = 14;
+            this.Space.Text = "___";
             this.Space.UseVisualStyleBackColor = false;
             this.Space.Click += new System.EventHandler(this.Esc_Click);
             // 
@@ -475,7 +490,7 @@
             this.RightShift.Text = "Shift\r\n";
             this.RightShift.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.RightShift.UseVisualStyleBackColor = false;
-            this.RightShift.Click += new System.EventHandler(this.Esc_Click);
+            this.RightShift.Click += new System.EventHandler(this.shift_left_Click);
             // 
             // wtf
             // 
@@ -673,7 +688,7 @@
             this.shift_left.Text = "Shift";
             this.shift_left.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.shift_left.UseVisualStyleBackColor = false;
-            this.shift_left.Click += new System.EventHandler(this.Esc_Click);
+            this.shift_left.Click += new System.EventHandler(this.shift_left_Click);
             // 
             // tableLayoutPanel5
             // 
@@ -1276,7 +1291,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1024, 57);
             this.tableLayoutPanel3.TabIndex = 1;
-            this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
             // 
             // backSpace
             // 
@@ -1671,20 +1685,20 @@
             // 
             // rh
             // 
-            this.rh.BackColor = System.Drawing.SystemColors.ControlText;
+            this.rh.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.rh.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rh.FlatAppearance.BorderSize = 0;
             this.rh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rh.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rh.ForeColor = System.Drawing.SystemColors.Control;
+            this.rh.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rh.Location = new System.Drawing.Point(515, 4);
             this.rh.Margin = new System.Windows.Forms.Padding(4);
             this.rh.Name = "rh";
             this.rh.Size = new System.Drawing.Size(65, 30);
             this.rh.TabIndex = 7;
-            this.rh.Text = "rh";
+            this.rh.Text = "ru";
             this.rh.UseVisualStyleBackColor = false;
-            this.rh.Click += new System.EventHandler(this.Esc_Click);
+            this.rh.Click += new System.EventHandler(this.rh_Click);
             // 
             // F6
             // 
@@ -1819,6 +1833,7 @@
             this.Text = "EKey";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.panel1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
@@ -1923,6 +1938,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private System.Windows.Forms.Button DownArrow;
         private System.Windows.Forms.Button UpArrow;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
